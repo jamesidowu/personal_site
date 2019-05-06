@@ -11,6 +11,9 @@ header {
     padding-top: 1rem; }
     header .navbar .nav-item a {
       font-weight: 800; }
+      header .navbar .nav-item a:hover {
+        color: #ffaa5a;
+        transition: all 0.5s ease-out; }
 
 body {
   background: black;

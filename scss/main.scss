@@ -17,6 +17,10 @@ header {
     .nav-item {
       a {
         font-weight: 800;
+        &:hover {
+          color: $fun-color;
+          @include easeOut();
+        }
       }
     }
   }
