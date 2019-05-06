@@ -38,7 +38,7 @@ a {
 
 main {
   height: 100%;
-  padding-top: 175px;
+  padding-top: 150px;
 
   .icons {
     text-align: -webkit-center;
@@ -80,7 +80,95 @@ main {
     text-align: center;
     font-weight: 600;
     width: 100%;
-    padding-left: 350px;
-    padding-right: 350px;
+    padding-left: 300px;
+    padding-right: 300px;
+  }
+}
+
+$breakpoint-tablet: 984px;
+@media (max-width: $breakpoint-tablet) {
+  main {
+    .sm-heading {
+      width: 100%;
+      padding-left: 250px;
+      padding-right: 250px;
+    }
+  }
+}
+
+@media (max-width: 885px) {
+  main {
+    .sm-heading {
+      width: 100%;
+      padding-left: 220px;
+      padding-right: 220px;
+    }
+  }
+}
+
+@media (max-width: 824px) {
+  main {
+    .sm-heading {
+      width: 100%;
+      padding-left: 150px;
+      padding-right: 150px;
+    }
+  }
+}
+
+@media (max-width: 824px) {
+  main {
+    .sm-heading {
+      width: 100%;
+      padding-left: 80px;
+      padding-right: 80px;
+    }
+  }
+}
+
+@media (max-width: 552px) {
+  main {
+    .sm-heading {
+      width: 100%;
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+
+    .lg-heading {
+      font-size: 4rem;
+    }
+  }
+}
+
+@media (max-width: 537px) {
+  main {
+    .sm-heading {
+      font-size: 1rem;
+    }
+
+    .lg-greeting {
+      font-size: 1.5rem;
+    }
+
+    .lg-heading {
+      .text-secondary {
+        font-size: 3rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 488px) {
+  main {
+    .lg-heading {
+      .text-secondary {
+        font-size: 3rem;
+      }
+    }
+    .icons {
+      a {
+        padding: 1rem;
+      }
+    }
   }
 }
