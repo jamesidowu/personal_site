@@ -9,10 +9,11 @@ header {
   z-index: 2;
   height: 60px;
   width: 100%;
-  background: $secondary-color;
 
   .navbar {
     padding-left: 2rem;
+    padding-top: 1rem;
+
     .nav-item {
       a {
         font-weight: 800;
@@ -36,15 +37,14 @@ a {
 }
 
 main {
-  padding: 0rem;
   height: 100%;
-  padding-top: 100px;
+  padding-top: 175px;
 
   .icons {
     text-align: -webkit-center;
     padding-top: 50px;
     a {
-      padding: 2rem;
+      padding: 3rem;
 
       &:hover {
         color: $secondary-color;
@@ -52,15 +52,35 @@ main {
       }
     }
   }
-
   .lg-heading {
-    font-size: 5rem;
+    padding-top: 0rem;
+    margin-top: 0;
+  }
+
+  .lg-greeting {
+    margin-bottom: 0;
+  }
+
+  .lg-heading,
+  .lg-greeting {
     text-align: center;
     font-weight: 600;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+
+    .text-secondary {
+      font-size: 5rem;
+      text-align: center;
+      display: flex;
+    }
   }
 
   .sm-heading {
     text-align: center;
     font-weight: 600;
+    width: 100%;
+    padding-left: 350px;
+    padding-right: 350px;
   }
 }

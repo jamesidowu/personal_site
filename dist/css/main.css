@@ -5,10 +5,10 @@ header {
   position: fixed;
   z-index: 2;
   height: 60px;
-  width: 100%;
-  background: #770000; }
+  width: 100%; }
   header .navbar {
-    padding-left: 2rem; }
+    padding-left: 2rem;
+    padding-top: 1rem; }
     header .navbar .nav-item a {
       font-weight: 800; }
 
@@ -25,21 +25,36 @@ a {
   text-decoration: none; }
 
 main {
-  padding: 0rem;
   height: 100%;
-  padding-top: 100px; }
+  padding-top: 175px; }
   main .icons {
     text-align: -webkit-center;
     padding-top: 50px; }
     main .icons a {
-      padding: 2rem; }
+      padding: 3rem; }
       main .icons a:hover {
         color: #770000;
         transition: all 0.5s ease-out; }
   main .lg-heading {
-    font-size: 5rem;
+    padding-top: 0rem;
+    margin-top: 0; }
+  main .lg-greeting {
+    margin-bottom: 0; }
+  main .lg-heading,
+  main .lg-greeting {
     text-align: center;
-    font-weight: 600; }
+    font-weight: 600;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center; }
+    main .lg-heading .text-secondary,
+    main .lg-greeting .text-secondary {
+      font-size: 5rem;
+      text-align: center;
+      display: flex; }
   main .sm-heading {
     text-align: center;
-    font-weight: 600; }
+    font-weight: 600;
+    width: 100%;
+    padding-left: 350px;
+    padding-right: 350px; }
