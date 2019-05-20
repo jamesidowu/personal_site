@@ -1,5 +1,5 @@
 # Personal Website
 
-> Basic clean site contact site
+> Basic clean contact site
 
-Built using HTML, SASS
+Built using HTML, Sass, npm
